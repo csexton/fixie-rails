@@ -1,5 +1,7 @@
 module Fixie
   module Rails
-    # Ohai, Rails, I has some vendor for you!
+    class Engine < ::Rails::Engine
+      # Ohai, Rails, I has some vendor for you!
+    end
   end
 end
