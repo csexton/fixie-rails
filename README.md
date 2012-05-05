@@ -6,6 +6,10 @@ To learn more, check out  [fixiejs.com](http://www.fixiejs.com "fixiejs")
 
 # Installation
 
+Add the following to your Gemfile and run `bundle update`:
+
+    gem 'fixie-rails', '~> 1.0'
+
 For Rails 3.1 and greater, the fixie.js will be added to the asset pipeline and available for you to use. Add the following line to the app/assets/javascripts/application.js file.
 
     //= require fixie
